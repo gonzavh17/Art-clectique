@@ -7,7 +7,7 @@ function Galery() {
   const cardsData = [
     { text: "Influential Artists & History", imageSrc: Image.roy1, to:"/artists" },
     { text: "Explore Pop Art Styles", imageSrc: Image.roy3 , to:"/styles" },
-    { text: "Emerging Artists", imageSrc: Image.roy2 },
+    { text: "Emerging Artists", imageSrc: Image.roy2 ,to:"/emerging-artists"},
   ];
 
   return (

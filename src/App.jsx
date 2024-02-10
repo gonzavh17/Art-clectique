@@ -4,6 +4,7 @@ import NavBar from "./components/NavBar";
 import Footer from "./components/Footer";
 import Styles from "./components/Styles";
 import Artists from './components/Artists'
+import EmerginArtists from "./components/EmerginArtists";
 import {
   BrowserRouter as Router,
   Routes,
@@ -12,6 +13,7 @@ import {
   BrowserRouter,
   useLocation,
 } from "react-router-dom";
+
 
 function App() {
   return (
@@ -22,6 +24,7 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/styles" element={<Styles />} />
           <Route path="/artists" element={<Artists />} />
+          <Route path="/emerging-artists" element={<EmerginArtists />} />
         </Routes>
       </BrowserRouter>
       <Footer />

@@ -10,6 +10,9 @@ import yourBody from './assets/img/kruger_your_body.jpg.webp'
 import warhol from './assets/img/Andy-Warhol-Supreme-Court-Copyright-Case-Culture-915414204.webp'
 import roy from './assets/img/1200px-Roy_Lichtenstein.jpg'
 import tom from './assets/img/wesselmann.webp'
+import murakami from './assets/img/murakami.jpeg'
+import kaws from './assets/img/kaws.webp'
+import yayoi from './assets/img/yayoi.jpg'
 
 export const Image = {
     popArt1,
@@ -23,5 +26,8 @@ export const Image = {
     yourBody,
     warhol,
     roy,
-    tom
+    tom,
+    murakami,
+    kaws,
+    yayoi
 }

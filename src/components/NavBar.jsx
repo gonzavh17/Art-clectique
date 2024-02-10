@@ -32,10 +32,7 @@ function NavBar() {
       <DropdownMenu aria-label="Static Actions">
         <DropdownItem key="new"><Link to='/'>Home</Link></DropdownItem>
         <DropdownItem key="new"><Link to='/styles'>Styles</Link></DropdownItem>
-        <DropdownItem key="edit">Edit file</DropdownItem>
-        <DropdownItem key="delete" className="text-danger" color="danger">
-          Delete file
-        </DropdownItem>
+        <DropdownItem key="edit"><Link to='emerging-artists'>Emerging artists</Link></DropdownItem>
       </DropdownMenu>
     </Dropdown>
       </div>
@@ -46,18 +43,16 @@ function NavBar() {
             <a className="nav-bar_item"><Link to='/'>Home</Link></a>
 
         )}
+        <Reveal customDelay={0.7}>
+        <Link to='/emerging-artists'><p className="nav-bar_item">Artists</p></Link>
+        </Reveal>
         <Reveal customDelay={0.3}>
-          <p className="nav-bar_item">Contact</p>
+          <Link to='/styles'><p className="nav-bar_item">Styles</p></Link>
         </Reveal>
         <Reveal customDelay={0.5}>
-          <p className="nav-bar_item">Artists</p>
+        <Link to='/emerging-artists'><p className="nav-bar_item">Emerging Artists</p></Link>
         </Reveal>
-        <Reveal customDelay={0.7}>
-          <p className="nav-bar_item">Blog</p>
-        </Reveal>
-        <Reveal customDelay={0.9}>
-          <p className="nav-bar_item">Shop</p>
-        </Reveal>
+        
       </div>
     </div>
   );
