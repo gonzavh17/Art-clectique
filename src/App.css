@@ -1,0 +1,321 @@
+.app{
+}
+
+/* Nav Bar */
+.nav-bar{
+  display: flex;
+  justify-content: space-between;
+  margin: 20px;
+  border-bottom: 1px solid;
+  padding: 10px;
+}
+
+.nav-bar_item_container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav-bar_item{
+  margin: 10px 20px;
+}
+.nav-bar_brand{
+  display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-bar-dropdown{
+  display: none;
+}
+.nav-bar_item a:visited {
+  color: #000; 
+}
+/* HOME */
+
+.home-container{
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.home-principla{
+  display: flex;
+  flex-direction: row;
+}
+
+.home-title_container{
+  margin-right: 70px;
+}
+
+.home-title{
+  font-family: 'Bangers', system-ui;
+  font-size: 90px;
+  margin: 15px;
+}
+
+.home-img{
+  height: 550px;
+}
+
+.home-cards{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Styles */
+
+.styles{
+  min-height: 100vh;
+}
+
+.styles-title{
+  font-size: 50px;
+  font-family: 'Bangers', system-ui;
+}
+
+.styles-description{
+  width: 600px;
+  margin: 20px;
+}
+
+.styles-title_container{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  min-height: 100vh;
+  align-items: center;
+}
+
+/* Card */
+.card-content{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 30px;
+}
+
+.card-image{
+  height: 600px;
+  width: 600px;
+  margin: 20px 0;
+}
+
+.card-text{
+  font-family: 'Bangers', system-ui;
+  font-size: 30px;
+  padding-bottom: 15px;
+  color: #000;
+  text-align: center;
+  display: flex;
+}
+
+.card {
+  border-bottom: 1px solid;
+  padding: 20px;
+}
+
+/* Footer */
+
+.footer-parent{
+  background-color: #fff;
+  color: #000;
+}
+
+.footer-container{
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 50px;
+}
+
+.footer-icon{
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #000;
+}
+
+.footer-dedication{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 0;
+    flex-direction: column;
+}
+
+.icon-link{
+  color: #000;
+}
+
+.rights{
+    margin: 20px;
+}
+
+/* Styles */
+
+.styles-title{
+  margin: 15px;
+  text-align: center;
+}
+
+.styles-galery{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.styles-art_container{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  width: 600px;
+  margin: 40px 0;
+}
+
+.styles-art_title{
+  font-family: 'Bangers', system-ui;
+  font-size: 35px;
+  margin: 10px;
+
+}
+
+.styles-art_img{
+  margin: 15px;
+}
+
+.styles-art_author{
+  margin: 15px;
+}
+
+.styles-art_description{
+  margin: 10px;
+  font-size: 18px;
+  text-align: center;
+}
+
+.styles-art_author-container{
+  display: flex;
+}
+
+.styles-border{
+  border-bottom: 1px solid;
+  padding: 40px;
+}
+
+.tab-parent{
+  width:600px; 
+}
+
+/* Artists */
+
+.artists {
+  min-height: 100vh;
+}
+
+.artists-galery{
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+  width:600px;
+}
+
+.artists-container{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+@media (max-width: 1450px) {
+  .home-container{
+    flex-direction: column;
+  }
+
+  .home-title{
+    text-align: center;
+    margin: 15px;
+  }
+
+  .home-title_container{
+    margin: 0;
+  }
+
+}
+
+@media (max-width: 1200px) {
+  .nav-bar_item_container{
+    display: none;
+  }
+
+  .nav-bar-dropdown{
+    display: inline;
+  }
+}
+
+@media (max-width: 899px){
+  .footer-container{
+      flex-wrap: wrap;
+      height: 100px;
+  }
+  
+  .footer-icon{
+      padding: 10px;
+  }
+
+  .footer-icon-description{
+      display: none;
+  }
+
+  .card{
+    padding: 0;
+  }
+
+  .card-image{
+    height: 90%;
+  }
+
+  .home-img{
+    height: 200px;
+  }
+
+  .home-title{
+    font-size: 50px;
+  }
+
+  .tab-parent{
+    width: 100%;
+  }
+
+  .styles-title{
+    font-size: 35px;
+  }
+  
+  .styles-art_description{
+    font-size: 1rem;
+  }
+
+  .styles-border{
+    padding: 0;
+  }
+
+  .styles-art_img{
+    height: 90%;
+    margin: 15px 0;
+  }
+
+  .styles-art_container{
+    width: 100%;
+  }
+}
+
+
