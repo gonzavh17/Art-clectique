@@ -22,7 +22,7 @@ function EmerginArtists() {
     },
     {
       id: "videos",
-      label: "Spotlight on Up-and-Coming Talent",
+      label: "New talents",
       content:
         "Delve into the world of up-and-coming talent within the pop art scene. Learn about promising artists through brief biographies alongside examples of their latest work and how they are contributing to the evolution of pop art today.",
     },
